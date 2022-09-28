@@ -1,0 +1,106 @@
+:root {
+  --primary-color-text: #7d3780;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(#e4fff15e, #ddffff);
+  margin-top: 100px;
+}
+.navbar-brand {
+  font-size: 25px;
+}
+.navbar-nav {
+  font-size: 18px;
+}
+h1 {
+  font-size: 35px;
+  color: var(--primary-color-text);
+}
+h2 {
+  font-size: 50px;
+  margin: 20px;
+  font-weight: bold !important;
+}
+h3 {
+  font-size: 25px;
+  color: var(--primary-color-text);
+  opacity: 0.7;
+}
+.contact-about {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.contact-about a {
+  margin: 15px;
+}
+.link-primary {
+  border: 1px solid var(--primary-color-text);
+  background-color: var(--primary-color-text);
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(85 28 96);
+  cursor: pointer;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.link-primary:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
+}
+.link-secondary {
+  border: 1px solid var(--primary-color-text);
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 5px rgb(131 72 143);
+  cursor: pointer;
+  color: var(--primary-color-text);
+  text-transform: capitalize;
+  background-color: white;
+  text-decoration: none;
+}
+.link-secondary:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  text-decoration: none;
+  color: var(--primary-color-text);
+}
+.app-link {
+  font-size: 12px;
+}
+.container {
+  max-width: 1320px;
+}
+.border {
+  color: var(--primary-color-text) !important;
+  border-radius: 15px;
+}
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.contact-me {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+.email-contact {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.contact-me-icon {
+  font-size: 25px;
+  text-align: center;
+}
+.contact-link {
+  text-decoration: none;
+}
+.row {
+  background: linear-gradient(0.25turn, #dbf7efa3, #f4ffec, #fff2e3d1);
+  border-radius: 15px;
+}
