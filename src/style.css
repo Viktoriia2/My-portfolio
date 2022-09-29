@@ -8,10 +8,10 @@ body {
   margin-top: 100px;
 }
 .navbar-brand {
-  font-size: 25px;
+  font-size: 20px;
 }
 .navbar-nav {
-  font-size: 18px;
+  font-size: 16px;
 }
 h1 {
   font-size: 35px;
@@ -103,4 +103,43 @@ p {
 .row {
   background: linear-gradient(0.25turn, #dbf7efa3, #f4ffec, #fff2e3d1);
   border-radius: 15px;
+}
+img {
+  box-shadow: 0px 0px 10px 0px rgba(199, 199, 199, 0.5);
+}
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+  h1 {
+    font-size: 25px;
+    margin: 10px auto;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 10px auto;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .contact-about {
+    font-size: 13px;
+  }
+  .app-link {
+    font-size: 12px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 1.1;
+  }
+  .img-on-contact-page {
+    width: 290px;
+  }
+  .row {
+    margin: 30px;
+  }
+  .contact-me {
+    font-size: 30px;
+  }
 }
