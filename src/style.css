@@ -3,7 +3,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: linear-gradient(#e4fff15e, #ddffff);
   margin-top: 75px;
 }
@@ -26,6 +26,7 @@ h3 {
   font-size: 25px;
   color: var(--primary-color-text);
   opacity: 0.7;
+  font-weight: 400;
 }
 .contact-about {
   display: flex;
@@ -73,7 +74,7 @@ h3 {
   font-size: 12px;
 }
 .container {
-  max-width: 1320px;
+  max-width: 1200px;
 }
 .border {
   color: var(--primary-color-text) !important;
@@ -103,6 +104,7 @@ p {
 .row {
   background: linear-gradient(0.25turn, #dbf7efa3, #f4ffec, #fff2e3d1);
   border-radius: 15px;
+  max-height: 600px;
 }
 img {
   box-shadow: 0px 0px 10px 0px rgba(199, 199, 199, 0.5);
