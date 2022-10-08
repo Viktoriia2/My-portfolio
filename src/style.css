@@ -3,9 +3,14 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  font-family: "Montserrat", sans-serif;
-  background: linear-gradient(#e4fff15e, #ddffff);
-  margin-top: 75px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f7fe;
+}
+.backgroung-heading {
+  padding: 200px;
+}
+.navbar {
+  background-color: #f9f7fe;
 }
 .navbar-brand {
   font-size: 20px;
@@ -14,18 +19,25 @@ body {
   font-size: 16px;
 }
 h1 {
-  font-size: 35px;
-  color: var(--primary-color-text);
-}
-h2 {
   font-size: 50px;
   margin: 20px;
-  font-weight: bold !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.1em;
+}
+h2 {
+  font-size: 35px;
+  color: var(--primary-color-text);
+  font-weight: 300;
 }
 h3 {
-  font-size: 25px;
+  font-size: 20px;
   color: var(--primary-color-text);
-  opacity: 0.7;
+  opacity: 0.8;
+  font-weight: 300;
+}
+h4 {
+  font-size: 35px;
+  color: var(--primary-color-text);
   font-weight: 400;
 }
 .contact-about {
@@ -74,15 +86,16 @@ h3 {
   font-size: 12px;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
 }
 .border {
   color: var(--primary-color-text) !important;
   border-radius: 15px;
 }
 p {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.5;
+  font-family: "Poppins", sans-serif;
 }
 .contact-me {
   text-align: center;
@@ -114,6 +127,9 @@ img {
     margin-top: 60px;
     text-align: center;
   }
+  .backgroung-heading {
+    padding: 0px;
+  }
   .navbar-brand {
     font-size: 15px;
   }
@@ -121,12 +137,12 @@ img {
     font-size: 10px;
   }
   h1 {
-    font-size: 25px;
+    font-size: 30px;
+    line-height: 1.5;
     margin: 10px auto;
   }
   h2 {
-    font-size: 30px;
-    line-height: 1.5;
+    font-size: 25px;
     margin: 10px auto;
   }
   h3 {
@@ -157,6 +173,9 @@ img {
     margin-top: 60px;
     text-align: center;
   }
+  .backgroung-heading {
+    padding: 0px;
+  }
   .navbar-brand {
     font-size: 15px;
   }
@@ -164,12 +183,12 @@ img {
     font-size: 10px;
   }
   h1 {
-    font-size: 25px;
+    font-size: 30px;
+    line-height: 1.5;
     margin: 10px auto;
   }
   h2 {
-    font-size: 30px;
-    line-height: 1.5;
+    font-size: 25px;
     margin: 10px auto;
   }
   h3 {
