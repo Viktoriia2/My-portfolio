@@ -5,12 +5,17 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f9f7fe;
+  background-image: url("/images/back2.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-.backgroung-heading {
+.hero {
   padding: 200px;
 }
 .navbar {
-  background-color: #f9f7fe;
+  background-color: #ffffffca;
+  height: 45px;
 }
 .navbar-brand {
   font-size: 20px;
