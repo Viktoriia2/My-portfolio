@@ -4,8 +4,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url("/images/back2.png");
-  background-size: 100%;
+  background-image: url("/images/back22.png");
+  background-size: 100% auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,7 +38,7 @@ h2 {
 h3 {
   font-size: 35px;
   color: var(--primary-color-text);
-  font-weight: 400;
+  font-weight: 300;
 }
 .contact-about {
   display: flex;
@@ -120,13 +120,14 @@ p {
   border-radius: 5px;
   max-height: 600px;
 }
-img {
-  box-shadow: var(--box-shadow);
+.footer-img {
+  width: 30px;
 }
 @media (max-width: 576px) {
   body {
     margin-top: 60px;
     text-align: center;
+    background-position: center;
   }
   .hero {
     padding: 50px;
@@ -176,8 +177,9 @@ img {
 @media only screen and (min-device-width: 414px) and (max-device-width: 914px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   body {
     margin-top: 60px;
+    background-position: center;
   }
-  .backgroung-heading {
+  .hero {
     padding: 0px;
   }
   .hero {
@@ -192,7 +194,7 @@ img {
   .navbar-nav {
     font-size: 15px;
   }
- h1 {
+  h1 {
     font-size: 30px;
     line-height: 1.5;
     margin: 10px auto;
