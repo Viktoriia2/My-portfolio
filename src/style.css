@@ -15,7 +15,7 @@ body {
 }
 .navbar {
   background-color: #ffffffca;
-  height: 45px;
+  height: 55px;
 }
 .navbar-brand {
   font-size: 20px;
@@ -132,7 +132,7 @@ img {
     padding: 50px;
   }
   .navbar {
-    height: 55px;
+    height: 55px auto;
   }
   .navbar-brand {
     font-size: 25px;
@@ -184,7 +184,7 @@ img {
     padding: 50px;
   }
   .navbar {
-    height: 55px;
+    height: 55px auto;
   }
   .navbar-brand {
     font-size: 25px;
