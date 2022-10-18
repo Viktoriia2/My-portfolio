@@ -98,32 +98,14 @@ p {
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
 }
-.contact-me {
-  text-align: center;
-  font-weight: bold;
-  font-size: 50px;
-}
-.email-contact {
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-}
-.contact-me-icon {
-  font-size: 25px;
-  text-align: center;
-}
-.contact-link {
-  text-decoration: none;
-}
 .row {
   background: rgba(255, 255, 255, 0.572);
   border-radius: 5px;
-  max-height: 600px;
 }
 .footer-img {
   width: 30px;
 }
-@media (max-width: 576px) {
+@media (max-width: 900px) {
   body {
     margin-top: 60px;
     text-align: center;
@@ -152,73 +134,18 @@ p {
   }
   h3 {
     font-size: 22px;
+    font-weight: 300;
   }
   .contact-about {
-    font-size: 13px;
+    font-size: 10px;
   }
   .app-link {
     font-size: 12px;
     margin: auto;
   }
   p {
-    font-size: 15px;
-    line-height: 1.1;
-  }
-  .img-on-contact-page {
-    width: 290px auto;
-  }
-  .row {
-    margin: 20px;
-  }
-  .contact-me {
-    font-size: 30px;
-  }
-}
-@media only screen and (min-device-width: 414px) and (max-device-width: 914px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  body {
-    margin-top: 60px;
-    background-position: center;
-  }
-  .hero {
-    padding: 0px;
-  }
-  .hero {
-    padding: 50px;
-  }
-  .navbar {
-    height: 55px auto;
-  }
-  .navbar-brand {
-    font-size: 25px;
-  }
-  .navbar-nav {
-    font-size: 15px;
-  }
-  h1 {
-    font-size: 30px;
-    line-height: 1.5;
-    margin: 10px auto;
-  }
-  h2 {
-    font-size: 22px;
-    margin: 10px auto;
-  }
-  h3 {
-    font-size: 22px;
-  }
-  .contact-about {
     font-size: 13px;
-  }
-  .app-link {
-    font-size: 12px;
-    margin: 0;
-  }
-  p {
-    font-size: 15px;
     line-height: 1.1;
-  }
-  .img-on-contact-page {
-    width: 290px;
   }
   .row {
     margin: 20px;

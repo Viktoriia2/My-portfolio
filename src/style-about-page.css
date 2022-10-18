@@ -48,10 +48,11 @@ footer p {
 .img-about-page {
   max-width: 350px;
   border-radius: 5px;
+  justify-content: right;
 }
 .btn-works {
   width: 165px;
-  margin-top: 20px;
+  margin-top: 65px;
   background-color: var(--primary-color-text);
   padding: 10px 20px;
   border-radius: 5px;
@@ -66,9 +67,9 @@ footer p {
   text-decoration: none;
 }
 .contact-box {
-  background-color: rgba(255, 255, 255, 0.572);
+  background-color: rgba(255, 255, 255, 0.12);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .email-contact {
   font-size: 22px;
@@ -77,6 +78,9 @@ footer p {
   font-size: 30px;
   text-align: center;
 }
+footer .btn-works {
+  margin-top: 10px;
+}
 footer .contact-link {
   text-decoration: none;
   color: black;
@@ -84,7 +88,6 @@ footer .contact-link {
 footer .contact-link:hover {
   color: #ed5b69;
 }
-
 .footer-img {
   width: 30px;
 }
