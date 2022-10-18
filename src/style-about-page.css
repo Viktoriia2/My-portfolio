@@ -91,7 +91,7 @@ footer .contact-link:hover {
 .footer-img {
   width: 30px;
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   body {
     margin-top: 60px;
     text-align: center;
@@ -119,18 +119,31 @@ footer .contact-link:hover {
   }
   .about-hero h2 {
     font-size: 20px;
-    margin: 10px auto;
+    margin: 15px auto;
   }
   .about-hero p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.1;
+  }
+  .btn-works {
+    font-size: 15px;
+    margin-top: 35px;
+  }
+  .col-lg-6 {
+    text-align: center !important;
   }
   .img-about-page {
     margin-top: 30px;
     max-width: 200px;
-    border-radius: 5px;
   }
-  .contact-me {
-    font-size: 30px;
+  .email-contact {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .contact-me-icon {
+    font-size: 25px;
+  }
+  .contact-box {
+    display: none !important;
   }
 }
