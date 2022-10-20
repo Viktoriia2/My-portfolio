@@ -36,8 +36,9 @@
   font-weight: 400 !important;
   letter-spacing: 0.1em;
 }
-.contenth1.work-page {
+.content h1.work-page {
   font-size: 35px;
+  text-transform: uppercase;
 }
 .content h2 {
   font-size: 25px;
