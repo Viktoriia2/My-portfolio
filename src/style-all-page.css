@@ -2,9 +2,17 @@
   --primary-color-text: #5b2e5de3;
   --box-shadow: 0px 0px 10px 0px rgba(97, 66, 93, 0.357);
 }
-body {
+.page-about {
   font-family: "Roboto", sans-serif;
   background-image: url("/images/back-page.png");
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-work {
+  font-family: "Roboto", sans-serif;
+  background-image: url("/images/back-work.png");
   background-size: 100% auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -20,26 +28,34 @@ body {
 .navbar-nav {
   font-size: 16px;
 }
-.about-hero {
-  padding: 160px 20px;
+.content-container {
+  padding: 160px 20px 50px 20px;
 }
-.about-hero h1 {
-  font-size: 50px;
+.content h1 {
+  font-size: 45px;
   font-weight: 400 !important;
   letter-spacing: 0.1em;
 }
-.about-hero h2 {
+.contenth1.work-page {
+  font-size: 35px;
+}
+.content h2 {
   font-size: 25px;
   color: var(--primary-color-text);
   opacity: 0.7;
   font-weight: 300;
   margin-top: 40px;
 }
-.about-hero p {
-  font-size: 18px;
-  margin-top: 40px;
+.content h3.work-page {
+  font-size: 25px;
+  color: var(--primary-color-text);
+  font-weight: 400;
 }
-footer h3 {
+.content p {
+  font-size: 18px;
+  font-weight: 300;
+}
+footer h4 {
   font-weight: 400;
 }
 footer p {
@@ -110,18 +126,22 @@ footer .contact-link:hover {
     background-color: #ffffffe2;
     border-radius: 5px;
   }
-  .about-hero {
+  .content-container {
     padding: 20px 0px;
   }
-  .about-hero h1 {
+  .content h1 {
     font-size: 30px;
     margin: 10px auto;
   }
-  .about-hero h2 {
+  .content h1.work-page {
+    font-size: 28px;
+    letter-spacing: 1px !important;
+  }
+  .content h2 {
     font-size: 20px;
     margin: 15px auto;
   }
-  .about-hero p {
+  .content p {
     font-size: 15px;
     line-height: 1.1;
   }
