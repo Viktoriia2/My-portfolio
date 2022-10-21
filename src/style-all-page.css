@@ -18,6 +18,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.page-contact {
+  font-family: "Roboto", sans-serif;
+  background-image: url("/images/back-contact.png");
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .navbar {
   background-color: #ffffffca;
   height: 55px;
@@ -38,7 +46,10 @@
 }
 .content h1.work-page {
   font-size: 35px;
-  text-transform: uppercase;
+}
+.content h1.contact-page {
+  font-size: 35px;
+  margin-bottom: 60px;
 }
 .content h2 {
   font-size: 25px;
@@ -53,6 +64,12 @@
   font-weight: 400;
 }
 .content p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.content p.contact-page {
+  margin-bottom: 40px;
+  margin-top: 5px;
   font-size: 18px;
   font-weight: 300;
 }
@@ -106,7 +123,17 @@ footer .contact-link:hover {
   color: #ed5b69;
 }
 .footer-img {
-  width: 30px;
+  width: 35px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  transform: scale(1.2);
+  background-color: #5b2e5d69;
 }
 @media (max-width: 950px) {
   body {
