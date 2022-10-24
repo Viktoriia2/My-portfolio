@@ -153,6 +153,12 @@ footer .btn-works {
   cursor: pointer;
   color: rgb(255, 255, 255);
 }
+.btn-works:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
+}
 footer p {
   color: var(--primary-color-text);
   font-size: 17px;
