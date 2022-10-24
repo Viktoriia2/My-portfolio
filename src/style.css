@@ -10,9 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero {
-  padding: 200px;
-}
+
 .navbar {
   background-color: #ffffffca;
   height: 55px;
@@ -23,6 +21,37 @@ body {
 .navbar-nav {
   font-size: 16px;
 }
+.hero {
+  padding: 200px;
+}
+.wrapper {
+  height: 30px;
+}
+.img-arrow {
+  width: 30px;
+  opacity: 1px;
+}
+.arrow {
+  width: 20px;
+  position: relative;
+  bottom: 20px;
+  left: calc(50% - 15px);
+  animation: arrowDown 2s infinite;
+}
+.arrow.two {
+  opacity: 0;
+  animation-delay: 1s;
+}
+@keyframes arrowDown {
+  0% {
+    bottom: 10px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 0;
+  }
+}
 h1 {
   font-size: 50px;
   margin: 20px;
@@ -30,7 +59,7 @@ h1 {
   letter-spacing: 0.1em;
 }
 h2 {
-  font-size: 20px;
+  font-size: 22px;
   color: var(--primary-color-text);
   opacity: 0.8;
   font-weight: 300;
@@ -41,7 +70,6 @@ h3 {
   font-weight: 300;
 }
 h4 {
-  margin-bottom: 25px;
   font-weight: 300;
   font-size: 20px;
   color: var(--primary-color-text);
@@ -166,6 +194,9 @@ footer .social-links a:hover {
   .navbar-collapse {
     background-color: #ffffffe2;
     border-radius: 5px;
+  }
+  .img-arrow {
+    width: 20px;
   }
   h1 {
     font-size: 30px;
