@@ -27,7 +27,6 @@
   background-size: cover;
 }
 .navbar {
-  background-color: #ffffffca;
   height: 55px;
 }
 .navbar-brand {
@@ -52,20 +51,31 @@
   margin-bottom: 60px;
 }
 .content h2 {
-  font-size: 25px;
+  font-size: 28px;
+  opacity: 0.9;
   color: var(--primary-color-text);
-  opacity: 0.7;
   font-weight: 300;
   margin-top: 40px;
+  margin-bottom: 25px;
+  font-weight: 300;
 }
 .content h3.work-page {
   font-size: 25px;
   color: var(--primary-color-text);
-  font-weight: 400;
+  font-weight: 300;
 }
-.content p {
+.content .about-me {
   font-size: 18px;
   font-weight: 300;
+  border-left: 1px solid #ba9ebd;
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif !important;
+}
+.content p {
+  font-family: "Poppins", sans-serif !important;
+}
+.select-word {
+  font-weight: 400;
 }
 .content p.contact-page {
   margin-bottom: 40px;
@@ -73,15 +83,22 @@
   font-size: 18px;
   font-weight: 300;
 }
-footer h4 {
-  font-weight: 400;
+.about-skills {
+  max-width: 1000px;
+  border-right: 1px solid #ba9ebd;
+  padding-right: 10px;
 }
-footer p {
-  color: var(--primary-color-text);
+.languages {
+  width: 70px;
+  margin: 5px;
+  border: 1px solid #bb8ec098;
+  padding: 10px;
+  border-radius: 50%;
 }
-.footer-end {
-  margin-top: 30px;
+.languages:hover {
+  transform: scale(1.2);
 }
+
 .img-about-page {
   max-width: 350px;
   border-radius: 5px;
@@ -89,7 +106,7 @@ footer p {
 }
 .btn-works {
   width: 165px;
-  margin-top: 65px;
+  margin-top: 20px;
   background-color: var(--primary-color-text);
   padding: 10px 20px;
   border-radius: 5px;
@@ -99,8 +116,8 @@ footer p {
 }
 .btn-works:hover {
   transform: scale(1.05);
-  opacity: 0.8;
-  color: white;
+  background-color: white;
+  color: var(--primary-color-text);
   text-decoration: none;
 }
 .contact-box {
@@ -117,6 +134,9 @@ footer p {
 }
 footer .btn-works {
   margin-top: 10px;
+}
+footer h4 {
+  font-weight: 400;
 }
 footer p {
   color: var(--primary-color-text);
@@ -179,12 +199,15 @@ footer .social-links a:hover {
     font-size: 28px;
   }
   .content h2 {
-    font-size: 20px;
-    margin: 15px auto;
+    font-size: 25px;
+    margin: 18px auto;
   }
   .content p {
     font-size: 15px;
     line-height: 1.1;
+  }
+  .about-me {
+    text-align: left;
   }
   footer p.footer-end {
     margin-top: 20px;
@@ -195,8 +218,8 @@ footer .social-links a:hover {
     font-size: 15px;
     margin-top: 35px;
   }
-  .col-lg-6 {
-    text-align: center !important;
+  .col-sm-8 {
+    text-align: left;
   }
   .img-about-page {
     margin-top: 30px;
