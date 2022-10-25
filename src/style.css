@@ -80,7 +80,7 @@ h4 {
   font-size: 15px;
 }
 .contact-about a {
-  margin: 15px;
+  margin: 10px;
 }
 .link-primary {
   width: 165px;
@@ -217,12 +217,12 @@ footer .social-links a:hover {
   h4 {
     font-size: 17px;
   }
-  .contact-about {
-    font-size: 10px;
+  .contact-about a {
+    margin: 5px;
   }
-  .app-link {
+  .link-primary {
+    width: 130px;
     font-size: 12px;
-    margin: auto;
   }
   p {
     font-size: 13px;

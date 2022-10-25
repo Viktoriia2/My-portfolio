@@ -185,11 +185,10 @@ footer .social-links a:hover {
     border-radius: 5px;
   }
   .content-container {
-    padding: 20px 0px;
+    padding: 25px 10px;
   }
   .content h1 {
     font-size: 30px;
-    margin: 10px auto;
   }
   .content h1.work-page {
     font-size: 28px;
@@ -206,8 +205,8 @@ footer .social-links a:hover {
     font-size: 15px;
     line-height: 1.1;
   }
-  .about-me {
-    text-align: left;
+  .content .about-me {
+    font-size: 15px;
   }
   footer p.footer-end {
     margin-top: 20px;
